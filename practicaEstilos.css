@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Caveat&family=Kaushan+Script&family=Piedra&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Cardo:ital@1&family=Caveat&family=Kaushan+Script&family=Piedra&family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Caveat&family=Kaushan+Script&family=Piedra&family=Special+Elite&display=swap');
+
+@import url ('https://fonts.googleapis.com/css2? family = Parisienne & family = Piedra & display = swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Parisienne&family=Piedra&display=swap');
+
+@import url ('https://fonts.googleapis.com/css2? family = Acme & display = swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 1px;
+    padding: 0px;
+    
+}
+
+body{
+    background: #ffffff;
+    font-family: verdana;
+}
+header{
+     background-color: #fcfcfc;
+}
+footer{
+     background-color: antiquewhite;
+    border: 3px solid white;
+}
+.contenedor{
+    width:2000px;
+    background: #fffbfb;
+    margin: 10px auto;
+    
+}
+#principal{
+    display: block;
+    width: center;
+    margin: 0px auto;
+    padding: 30px;
+    text-align: center;
+    border:px solid #ffffff;
+    background: #f2920f;
+    height: 160px;
+}
+#titulo{
+    font-size: 90px;
+    font-family: 'Nerko One', cursive;
+}
+.superior{
+    background: #c46e5e;
+    overflow: hidden;
+    width: 2000px;
+    padding: 0px;
+    margin: 3px;
+   height: 150px;
+  
+}
+.logo{
+    float: left;
+    position: absolute;
+    width: 230px;
+    height: 255px;
+    padding: 1px;
+    
+}
+.menu{
+    float: right;
+    padding: 36px;
+}
+.opciones{
+    float: center;
+    list-style:none;
+    font-family: 'Bangers', cursive;
+        
+}
+.opciones li{
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+.opciones li a{
+    color:#ffffff;
+    padding: 5px;
+    text-decoration:none;
+    font-size: 50px;
+}
+.slider{
+    width: 100%;
+    margin:0px ;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding:0;
+    width: 200%;
+    animation: cambio 20s infinite alternate;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+@keyframes cambio{
+    10%{ margin-left: 0;}
+    25%{margin-left: 0;}
+    
+    50%{ margin-left:-100%;}
+    75%{margin-left: -100%;}
+}
+#localizacion{
+    background-color:#ffb01c;
+    padding: 5px;
+    height: 70px;
+    font-size: 40px;
+}
+.maps{
+    background-color:#ffb01c;
+}
+.content{
+    background-image: url(imagenes/5e99807bf01fd.jpeg);
+}
+
+
+span{
+    font-size: 70px;
+    color: aliceblue;
+    font-family: 'Piedra', cursive;
+}
+span1{
+   font-size: 35px;
+    color: black;
+    font-family: 'Piedra', cursive;
+}
+.subtitle{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Cardo', serif;
+}
+
+a{
+    font-size: 25px;
+    color: white;
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+   
+}
+
+p50:hover{
+    background: firebrick ;
+    }
+
+p02{
+    float: right;
+    font-size: 25px;
+    font-family: 'Courgette', cursive;
+    
+}
+
+#geolocalizacion{
+    float: left;
+}
+
+.abajo{
+    font-size: 30px;
+    font-family: 'Special Elite', cursive;
+}
+.abaj{
+    font-size: 25px;
+    font-family: 'Cardo', serif;
+}
+.siguenos{
+    font-family: 'Parisienne', cursive;
+}
+.campo{
+    background-color:darksalmon;
+}
+footer{
+    background-color:darkorange;
+}
+
+
+
+/*************/
+
+
+.modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: 	rgb(248, 248, 255,0.5);
+  
+    
+    top:0;
+    left:0;
+    display: flex;
+    
+    animation: modal 2s 3s forwards;
+    
+    visibility:hidden none;
+    opacity: 0;
+    
+}
+
+
+.contenido{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    background:white ;
+    border-radius: 10px ;
+    background-image: url(imagenes/WEB-BKC-Desktop%E2%80%931800x760px_1.jpg);
+    background-size: 1415px 690px;
+   
+    
+}
+
+#cerrar{
+    display: none;
+    
+}
+#cerrar + label {
+    position:fixed;
+    color:white;
+    font-size: 25px;
+    z-index: 50;
+    background: darkred;
+     width: 45px;
+    height: 45px;
+    line-height: 35px;
+    border-radius: 50%;
+    right: 287px;
+     top: 134px;
+    cursor: pointer;
+    
+     animation: modal 2s 3s forwards;
+   
+    visibility:hidden none;
+    opacity: 0;
+    
+}
+
+#cerrar :checked + label, #cerrar:checked ~ .modal{
+    display: none;
+    
+}
+
+
+@keyframes modal{
+    0%{
+       top: 0; 
+       left: 0;
+       visibility: hidden;
+    }
+ 100% {
+        visibility: visible ;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,150 @@
+@import url ('https://fonts.googleapis.com/css2? family = Bungee + Outline & display = swap');
+
+*{
+    margin: 3px;
+    padding: 0px;
+    border: 5px;
+    box-sizing: border-box;
+}
+
+/*******/
+.superior{
+    background: #c46e5e;
+    overflow: hidden;
+    padding: 0px;
+    margin: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+   
+    
+}
+.logo{
+    float: left;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+    
+}
+.menu{
+    float: right;
+    padding: 36px;
+}
+.opciones{
+    float: center;
+    list-style:none;
+    font-family: 'Bungee Outline', cursiva;
+        
+}
+.opciones li{
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+.opciones li a{
+    color:#ffffff;
+    padding: 5px;
+    text-decoration:none;
+}
+li{
+    font-size: 20px;
+}
+
+
+/********/
+
+body{
+    background: #E0E4E5;
+    font-family: cursive;
+}
+
+
+.warp{
+    max-width: 1300px;
+    width: 90%;
+    margin: auto;
+}
+.warp > h1{
+    color:#494B4D;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 0px;
+}
+.wrap >h1:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #C7C7C7;
+    margin: 20px 0;
+}
+.store-wapper{
+    display: flex;
+}
+.category_list{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+.category_list .category_item{
+    display: block;
+    width: 90%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background: #E84C3D;
+    
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.category_list .ct_item-active{
+    background: #2D3E50;
+}
+
+
+/*productos*/
+
+.products-list{
+    width: 90%;
+    height: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-list .product-item{
+    width: 290px;
+    height:380px ;
+    margin-left: 5%;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0 22);
+    background-color:white;
+    margin: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.products-list .product-item img{
+    width: 100%; 
+    height: 250px;
+}
+.products-list .product-item a{
+    display: block;
+    width: 100%;
+    padding: 8px 5px;
+    background: #2D3E50;
+    
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

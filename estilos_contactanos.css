@@ -1,0 +1,84 @@
+@import url ('https://fonts.googleapis.com/css2? family = Bungee + Outline & display = swap');
+@import url ('https://fonts.googleapis.com/css2? family = Bangers & family = Bungee + Outline & display = swap');
+
+*{
+    padding: 0;
+}
+body{
+    background:   url(imagenes/Fast_food_Hamburger_French_fries_Meat_products_540615_1280x853.jpg )   ;
+    background-size: 1535px 950px;
+    background-position: top 110px right 0px;
+  
+     
+}
+
+/*******/
+.superior{
+    background: #c46e5e;
+    overflow: hidden;
+    padding: 0px;
+     
+    
+}
+.logo{
+    float: left;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+    
+}
+.menu{
+    float: right;
+    padding: 36px;
+}
+.opciones{
+    float: center;
+    list-style:none;
+    font-family: 'Bangers', cursive;
+        
+}
+.opciones li{
+    float: left;
+    list-style: none;
+    padding: 5px;
+    border:15px;
+}
+.opciones li a{
+    color:#ffffff;
+    padding: 5px;
+    text-decoration:none;
+    border: 15px;
+    border-width: 30px:
+}
+a{
+    font-size: 25px;
+    border: 35px;
+    align-content: 50px;
+}
+
+
+/********/
+
+table{
+    text-align: center;
+    background-color:#e0b5ad;
+    width: 25%;
+    margin: auto;
+    border: 1px dashed black;
+}
+td{
+    padding: 14px;
+    font-family:inherit;
+}
+h1{ 
+    background: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+section{
+    float: right;
+    margin: 130px;
+    height: 510px;
+    
+}

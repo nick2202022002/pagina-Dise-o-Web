@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Nerko+One&family=Parisienne&family=Piedra&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Nerko+One&family=Parisienne&family=Permanent+Marker&family=Piedra&display=swap');
+
+body{
+    background-image: url(imagenes/fondo9.jpg);
+    margin: 15px;
+}
+
+/*******/
+.superior{
+    background: #c46e5e;
+    overflow: hidden;
+    padding: 0px;
+    margin: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+   
+    
+}
+.logo{
+    float: left;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+    
+}
+.menu{
+    float: right;
+    padding: 36px;
+}
+.opciones{
+    float: center;
+    list-style:none;
+    font-family: 'Bungee Outline', cursiva;
+        
+}
+.opciones li{
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+.opciones li a{
+    color:#ffffff;
+    padding: 5px;
+    text-decoration:none;
+}
+li{
+    font-size: 20px;
+}
+
+
+/********/
+
+.cuerpo{
+    text-align: center;
+}
+h12{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    
+}
+.menu{
+    text-align: none;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+ul li{
+    display: inline;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 0px 20px;
+    font-size: 20px;
+    margin: 15px;
+    }
+a{ color: black;
+    text-decoration: none;
+    
+}
+ulj li{
+    display: inline;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 15px;
+    font-family: fantasy;
+}
+c{ color: black;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: darkgoldenrod;
+    }
+a:active{
+ color: darkgrey;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+h3,h4,h5,h6,h7{
+    font-size: 30px;
+    
+}
+p3{
+    font-size: 25px;
+    font-family: monospace;
+    
+}
+p10{
+    font-size: 20px;
+    color:white;
+    text-align: justify;
+}
+p{
+    font-size: 20px;
+    padding: 30px;
+    text-align: justify;
+    margin: 10px;
+    
+    
+}
+
+
+.catarata{
+    float: right ;
+    margin: 50px; 
+    text-align: center;
+   
+}
+p6{
+color: white;
+
+}
+.copa{
+    float: right;
+    margin: 50px;
+    text-align: center;
+}
+.mun{
+    float: right;
+    margin: 50px;
+    text-align: center;
+}
+.dan{
+    float: right;
+    margin: 30px;
+    text-align: center;
+}
+.cambiopictec{
+    float:left;
+    margin: 30px;
+    text-align: center;
+    font-family:inherit;
+}
+.palma{
+    float: right;
+    text-align: center;
+    margin: 50px;
+    
+}
+p7{
+    color:black;
+}
+.fiesta{
+    float: right;
+    margin: 30px;
+}
+.abajo{
+    text-align: center;
+    font-size: 30px;
+    font-family: serif;
+}
+
+.siguenos{
+    text-align: center;
+}
+------------------------------------------------------------------------
+
+.Query{
+    float: left;
+    margin: 3px;
+}
+
+p18{
+    font-size: 15px;
+    margin: 100px;
+        
+}
+p23{
+    font-size: 35px;
+    font-family: cursive;
+    color: brown;
+}
+
+
+nav1{
+    align-content:space-around;
+       
+}
+nav2{
+    align-content: center;
+}
+nav1 img{
+    margin: 55px;
+}
+nav2 img{
+    margin: 55px;
+}
+h1{
+    color: black;
+}
+p30{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+}
